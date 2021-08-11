@@ -1,0 +1,1 @@
+# zbar-vanilla-js-demo

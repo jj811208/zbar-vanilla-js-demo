@@ -1,0 +1,44 @@
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #878787;
+      }
+      .full {
+        display: block;
+        position: absolute;
+      }
+      .middle {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      #header {
+        width: calc(100vw - 120px);
+        height: 60px;
+        padding: 10px 60px 0 60px;
+        background-color: rgba(10, 10, 10, 0.5);
+        display: flex;
+      }
+      #title {
+        font-size: 30px;
+        color: #fff;
+        margin-left: 20px;
+      }
+      #footer {
+        width: calc(100vw - 120px);
+        /*height: 60px;*/
+        padding: 10px 60px 0 60px;
+        background-color: rgba(10, 10, 10, 0.5);
+        /*display: flex;*/
+        bottom: 0;
+      }
+      .footerItem {
+        margin-bottom: 5px;
+        width: 100%;
+        color: #fff;
+        font-size: 20px;
+      }
